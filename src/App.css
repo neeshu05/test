@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0px 7%;
+}
+
+.App_button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.creative-button_ {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #f4f3a8;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.creative-button_:hover {
+  background-color: #acf772;
+  transform: scale(1.1);
+}
+
+
+
+@media (max-width: 767px) {
+  .creative-button_{
+    font-size: 14px;
+    background-color: #f4f3a8;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  display: inline-block;
+  }
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+
+.pagination {
+  text-align: center;
+}
+
+.page {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.page:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.page:disabled {
+  background-color: #ccc; 
+  color: #999; 
+  cursor: not-allowed; 
+}
+
+
+
+@media (max-width: 767px) {
+  .app { 
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin: 20px;
+      margin-top: 60px;
+      gap: 2px;
+
+  }
+}
